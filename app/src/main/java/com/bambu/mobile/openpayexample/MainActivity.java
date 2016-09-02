@@ -29,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
                 .setup(this);
         log("deviceId: " + deviceSessionId);
 
-        openpay.createCard(card, new OperationCallBack() {
+        openpay.createToken(card, new OperationCallBack() {
 
             @Override
             public void onSuccess(OperationResult arg0) {
                 //Handlo in success
-                log(arg0.toString());
+//
+//               log(arg0.getResult().f);
                 log(arg0.getResult().toString());
             }
 

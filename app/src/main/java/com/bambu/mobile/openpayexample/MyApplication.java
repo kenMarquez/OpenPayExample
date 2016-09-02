@@ -12,9 +12,9 @@ public class MyApplication extends Application {
     private final Openpay openpay;
 
     public MyApplication() {
-
-        this.openpay = new Openpay("mkjecedv6ihqi1zpb1gn", "sk_afe81e7e43d448f1b89a768528a4c775", false);
+        this.openpay = new Openpay("mkjecedv6ihqi1zpb1gn", "pk_198ba64bbb7c40f499f4032bcae77e7c", false);
     }
+
 
 
 
